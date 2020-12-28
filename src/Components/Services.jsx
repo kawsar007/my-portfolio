@@ -32,7 +32,7 @@ function Services() {
         <div className="services_header">
           <div className="common">
             <h3 className="heading">{header.mainHeader}</h3>
-            <h1 className="mainHeading">{header.subHeading}</h1>
+            <h1 className="mainHeader">{header.subHeading}</h1>
             <p className="mainContent">
                {header.text}
             </p>
@@ -43,13 +43,13 @@ function Services() {
               {state.map((info) => (
                   <div className="col-4">
                   <div className="services_box">
-                    {/* <FaGithub className="commonIcons" /> */}
                     <div className="commonIcons">{info.icon}</div>
                     <div className="services_box-header">{info.heading}</div>
-                    <p className="services_box-p"> {info.text} </p>
+                    <div className="services_box-p"> {info.text} </div>
                   </div>
-                </div>
+                  </div>
               ))}
+              
           </div>
         </div>
       </div>

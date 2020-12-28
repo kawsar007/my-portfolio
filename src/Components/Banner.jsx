@@ -14,7 +14,7 @@ function Banner() {
     <header className="header">
       <div className="container">
         <div className="row">
-           <div className="col-6">  {/*col-6 start */}
+           <div className="col-6 animate__animated animate__fadeInLeft">  {/*col-6 start */}
             <div className="header_content">
               <div className="header_section">
                 <ul className="header_ul">
@@ -52,7 +52,7 @@ function Banner() {
               </div>
             </div>
           </div>     {/*col-6 End */}
-          <div className="col-6">
+          <div className="col-6 animate__animated animate__fadeInRight">
               <div className="banner_img">
                   <img src="/images/jon.jpg" alt="Kawsar"/>
               </div>

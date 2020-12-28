@@ -22,7 +22,7 @@ function About() {
           <p className="mainContent">{header.text}</p>
           <div className="commonBorder"></div>
         </div>
-        <div className="row h-650 alignCenter">
+        <div className="row alignCenter">
             <div className="col-6">
                 <div className="about_img">
                 <img src="/images/jon.jpg" alt="Kawsar"/>
@@ -46,19 +46,6 @@ function About() {
                                     <p>{info.text}</p>
                                 </div>
                             ))}
-                            
-                            {/* <div className="col-6">
-                                <strong>Email:</strong>
-                                <p>imkawsar007@gmail.com</p>
-                            </div>
-                            <div className="col-6">
-                                <strong>Phone:</strong>
-                                <p>01638-600627</p>
-                            </div>
-                            <div className="col-6">
-                                <strong>LinkedIn:</strong>
-                                <p>kawsar007</p>
-                            </div> */}
                         </div>
                     </div>
                 </div>
