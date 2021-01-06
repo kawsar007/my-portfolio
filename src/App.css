@@ -115,6 +115,17 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 10px;
+    font-size: clamp(18px, 4vw, 24px);
+    transition: all 0.5s linear;
+}
+
+.header_ul li:hover {
+    background: #FF4A57;
+    cursor: pointer;
+}
+
+.header_ul li a {
+    color: #ffffff;
 }
 
 .header_ul li:first-child {
@@ -148,6 +159,7 @@ body {
     border: 2px solid #F54856;
     border-radius: 50px;
     padding: 8px 25px;
+    transition: all 0.5s linear;
 }
 
 .btn-outline:hover {
@@ -272,12 +284,12 @@ body {
 }
 
 .about_info-p1 {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
 .about_info-p2 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .info_contacts {

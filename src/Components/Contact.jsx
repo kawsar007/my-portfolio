@@ -27,15 +27,15 @@ function Contact() {
     },
   ]);
 
-  const initialState = {
-      name: "",
-      email: "",
-      message: "",
-  }
+  // const initialState = {
+  //     name: "",
+  //     email: "",
+  //     message: "",
+  // }
 
-  const onSubmit = (values) => {
-      alert(JSON.stringify(values, null, 2));
-  } 
+  // const onSubmit = (values) => {
+  //     alert(JSON.stringify(values, null, 2));
+  // } 
 
   return (
     <div className="contact">

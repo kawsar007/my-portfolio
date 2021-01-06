@@ -10,7 +10,7 @@ function Navbar() {
         <div className="navbar_container">
           <ul className="navbar_left">
             <div className="navbar_left-logo">
-              <img src="/images/logo.jpg" alt="logo" />
+              <img src="/images/kaws.jpg" alt="logo" />
             </div>
           </ul>
 
