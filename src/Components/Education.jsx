@@ -206,7 +206,7 @@ const useStyles = makeStyles ( theme => ({
 export default function Edication() {
     const classes = useStyles();
     return (
-        <div className="education">
+        <div className="education" id="education">
         <div className="container">
         <Box component="header" className={classes.mainContainer}>
             <Typography variant="h4" align="center" className={classes.heading}>

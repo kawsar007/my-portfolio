@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { FaLocationArrow } from "react-icons/fa";
 import { MdCall, MdEmail } from "react-icons/md";
-import { Formik, Form, Field, ErrorMessage, FieldArray, FastField } from "formik";
 import ContactForm from "./ContactForm";
 
 function Contact() {
@@ -27,23 +26,13 @@ function Contact() {
     },
   ]);
 
-  // const initialState = {
-  //     name: "",
-  //     email: "",
-  //     message: "",
-  // }
-
-  // const onSubmit = (values) => {
-  //     alert(JSON.stringify(values, null, 2));
-  // } 
-
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="container">
         <div className="contact_header">
           <div className="common">
             <h3 className="heading">Have Any Query?</h3>
-            <h1 className="mainHeading">Contact Me</h1>
+            <h1 className="mainHeader">Contact Me</h1>
           </div>
           <div className="commonBorder"></div>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <div className="container">
         <div className="skills_header">
           <h3 className="mainHeader" style={{ textAlign: "center" }}>

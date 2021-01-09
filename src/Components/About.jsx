@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+// import kawser2 from "./img/kawser2.jpg";
+import kilil2 from "./img/kilil2.jpg";
+
 
 function About() {
   const [header] = useState({
@@ -15,17 +18,18 @@ function About() {
   ]);
 
   return (
-    <div className="About">
+    <div className="About" id="about">
       <div className="container">
         <div className="common">
-          <h1 className="mainHeading">{header.subHeading}</h1>
-          <p className="mainContent">{header.text}</p>
+          <h1 className="mainHeader">{header.subHeading}</h1>
+          {/* <p className="mainContent">{header.text}</p> */}
           <div className="commonBorder"></div>
         </div>
         <div className="row alignCenter">
           <div className="col-6">
             <div className="about_img">
-              <img src="/images/jon.jpg" alt="Kawsar" />
+              {/* <img src="/images/jon.jpg" alt="Kawsar" /> */}
+              <img src={kilil2} alt="Kawsar" />
             </div>
           </div>
           <div className="col-6">

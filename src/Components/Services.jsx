@@ -27,15 +27,15 @@ function Services() {
     ])
 
   return (
-    <div className="services">
+    <div className="services" id="services">
       <div className="container">
         <div className="services_header">
           <div className="common">
             <h3 className="heading">{header.mainHeader}</h3>
             <h1 className="mainHeader">{header.subHeading}</h1>
-            <p className="mainContent">
+            {/* <p className="mainContent">
                {header.text}
-            </p>
+            </p> */}
             <div className="commonBorder"></div>
           </div>
 

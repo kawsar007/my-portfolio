@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
-import covid from "./covid.jpg";
-import gadget from "./gadget.jpg";
-import pizza from "./pizza.jpg";
+import covid from "./img/covid.jpg";
+import gadget from "./img/gadget.jpg";
+import pizza from "./img/pizza.jpg";
+import netflix from "./img/netflix.JPG";
+import blog1 from "./img/blog1.jpg";
 
 function Project() {
   const [state] = useState([
@@ -12,44 +14,56 @@ function Project() {
       icon: <FaGithub />,
       heading: "Gadget E-Commerce",
       text:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit.Omnis laborum aspernatur aut magnam!",
+        "This is E-Commerce Project using Frontend React, Redux and backend Express and MongoDB",
       projectLink: "https://5fd745c8358b5a0bc65f5f62--zealous-visvesvaraya-11d74f.netlify.app/",
       githubLink: "https://github.com/kawsar007/COVID_19_Tracker"
     },
     {
       id: 2,
-      image: pizza,
+      image: covid,
       icon: <FaGithub />,
-      heading: "Pizza Hut",
+      heading: "Covid 19 Tracker",
       text:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit.Omnis laborum aspernatur aut magnam!",
+        "Covid 19 Tracker using React Js and Firebase. Covid 19 Affect update information",
+        projectLink:
+        "https://5fd745c8358b5a0bc65f5f62--zealous-visvesvaraya-11d74f.netlify.app/",
+      githubLink: "https://github.com/kawsar007/COVID_19_Tracker",
     },
     {
       id: 3,
-      image: covid,
+      image: netflix,
       icon: <FaGithub />,
       heading: "Netflix Clone",
       text:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit.Omnis laborum aspernatur aut magnam!",
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Omnis laborum aspernatur aut magnam!",
+      projectLink:
+        "https://netflix-clone-cfa62.web.app/?fbclid=IwAR1d217QZ-Qk5coXi1qo7-WMOCwpQfsGMsy9dXTnh8Xeicup88KNL_97A7c",
+      githubLink: "https://github.com/kawsar007/netflix-clone",
     },
     {
-      id: 1,
-      image: gadget,
-      icon: <FaGithub />,
-      heading: "Gadget E-Commerce",
-      text:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit.Omnis laborum aspernatur aut magnam!"
-    },
-    {
-      id: 2,
+      id: 4,
       image: pizza,
       icon: <FaGithub />,
-      heading: "Pizza Hut",
+      heading: "Pizza Shop",
       text:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit.Omnis laborum aspernatur aut magnam!",
+        "This is responsive Pizza Shop Design Project using React Js and Style-components.",
+        projectLink:
+        "https://pizzashop-design.netlify.app/",
+      githubLink: "https://github.com/kawsar007/Pizza-Shop",
     },
     {
-      id: 3,
+      id: 5,
+      image: blog1,
+      icon: <FaGithub />,
+      heading: "BlogMania - Blog app",
+      text:
+        "Blog website that allows user to log in using Google and start searching for & reading intersting blog posts.",
+        projectLink:
+        "https://react-redux-googlelogin-blogapp.netlify.app/",
+      githubLink: "https://github.com/kawsar007/blog-app",
+    },
+    {
+      id: 6,
       image: covid,
       icon: <FaGithub />,
       heading: "Netflix Clone",
@@ -59,7 +73,7 @@ function Project() {
   ]);
 
   return (
-    <div className="project">
+    <div className="project" id="project">
       <div className="container">
         <div className="project_header">
           <h3 className="mainHeader" style={{ textAlign: "center" }}>

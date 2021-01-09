@@ -10,14 +10,31 @@ import Project from "./Components/Project";
 import Services from "./Components/Services";
 import Skills from "./Components/Skills";
 
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+
 function App() {
   return (
     <div className="App">
       
-         
+        {/* <Router>
+          <Switch/>
+          <Banner/>
+          <Navbar/>
+          <Route path="/services" component={Services}/>
+          <Route path="/services" component={About}/>
+          <Route path="/services" component={Education}/>
+          <Route path="/services" component={Project}/>
+          <Route path="/services" component={Skills}/>
+          <Route path="/services" component={Contact}/>
+         <Footer/>
+          
+        </Router>  */}
+
       <Banner/>
-      <Navbar/>
-      <Services/>
+      <Navbar/> 
+
+      {/* <Services/> */}
       <About/>
       <Education/>
       <Project/>

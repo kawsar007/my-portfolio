@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   FaFacebookF,
   FaInstagram,
@@ -8,10 +9,15 @@ import {
   FaPlay,
 } from "react-icons/fa";
 //import { AiOutlineMail } from 'react-icons/ai';
+// import kaw2 from "./img/kaw2.jpg";
+import kilil from "./img/kilil.jpg";
 
 function Banner() {
   return (
-    <header className="header">
+    <header className="header" id="home">
+
+
+
       <div className="container">
         <div className="row">
           <div className="col-6 animate__animated animate__fadeInLeft">
@@ -45,7 +51,7 @@ function Banner() {
                 </p>
                 <div className="header_buttons">
                   <a
-                    href="https://doc-0g-44-docs.googleusercontent.com/docs/securesc/kro6omikv58j0b19ghqba8ouj0l4m76i/qqnrgfo8e7htf1nadvfdb9nu70e6486h/1609957350000/05847078092016919770/05847078092016919770/14sdStmwpdXeHSQeIoKRlUI_F_tSiYHpT?e=download&authuser=0&nonce=5gclvjagjmi4s&user=05847078092016919770&hash=liui04k79kphm4l0m2sltkf4f7rdj3c0"
+                    href="https://drive.google.com/file/d/14sdStmwpdXeHSQeIoKRlUI_F_tSiYHpT/view?usp=sharing"
                     className="btn btn-outline"
                   >
                     Resume
@@ -64,11 +70,14 @@ function Banner() {
           {/*col-6 End */}
           <div className="col-6 animate__animated animate__fadeInRight">
             <div className="banner_img">
-              <img src="/images/jon.jpg" alt="Kawsar" />
+              {/* <img src="/images/jon.jpg" alt="Kawsar" /> */}
+              <img src={kilil} alt="Kawsar"/>
             </div>
           </div>
         </div>
       </div>
+
+
     </header>
   );
 }
