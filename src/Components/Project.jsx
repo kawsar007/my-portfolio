@@ -2,40 +2,53 @@ import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import covid from "./img/covid.jpg";
 import gadget from "./img/gadget.jpg";
+import commerce from "./img/commerce.jpg";
 import pizza from "./img/pizza.jpg";
 import netflix from "./img/netflix.JPG";
 import blog1 from "./img/blog1.jpg";
+import github from "./img/github.jpg";
 
 function Project() {
   const [state] = useState([
     {
       id: 1,
-      image: gadget,
+      image: commerce,
       icon: <FaGithub />,
-      heading: "Gadget E-Commerce",
+      heading: "React E-Commerce",
       text:
-        "This is E-Commerce Project using Frontend React, Redux and backend Express and MongoDB",
-      projectLink: "https://5fd745c8358b5a0bc65f5f62--zealous-visvesvaraya-11d74f.netlify.app/",
-      githubLink: "https://github.com/kawsar007/COVID_19_Tracker"
+        "This is fully functional eCommerce application using React Js commerce.js and Material UI", 
+      projectLink: "https://commercejsstor.netlify.app/",
+      githubLink: "https://github.com/kawsar007/React-E-Commerce"
     },
+    // {
+    //   id: 1,
+    //   image: gadget,
+    //   icon: <FaGithub />,
+    //   heading: "Gadget E-Commerce",
+    //   text:
+    //     "This is E-Commerce Project using Frontend React, Redux and backend Express and MongoDB",
+    //   projectLink: "https://5fd745c8358b5a0bc65f5f62--zealous-visvesvaraya-11d74f.netlify.app/",
+    //   githubLink: "https://github.com/kawsar007/COVID_19_Tracker"
+    // },
     {
       id: 2,
-      image: covid,
+      image: github,
       icon: <FaGithub />,
-      heading: "Covid 19 Tracker",
+      heading: "Search Github User",
       text:
-        "Covid 19 Tracker using React Js and Firebase. Covid 19 Affect update information",
+        "It's amazing app Search Github User.Using React, Hooks, Context Api,  material-ui and Fusion Charts Api",
         projectLink:
-        "https://5fd745c8358b5a0bc65f5f62--zealous-visvesvaraya-11d74f.netlify.app/",
-      githubLink: "https://github.com/kawsar007/COVID_19_Tracker",
-    },
+        "https://react-github-user-search-app.netlify.app",
+      githubLink: "https://github.com/kawsar007/Search-Github-User",
+    }
+    ,
     {
       id: 3,
       image: netflix,
       icon: <FaGithub />,
       heading: "Netflix Clone",
       text:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Omnis laborum aspernatur aut magnam!",
+        "This is awesome Netflix Clone App. Using React Js, React Hooks, Flexbox and Firebase Hosting.",
       projectLink:
         "https://netflix-clone-cfa62.web.app/?fbclid=IwAR1d217QZ-Qk5coXi1qo7-WMOCwpQfsGMsy9dXTnh8Xeicup88KNL_97A7c",
       githubLink: "https://github.com/kawsar007/netflix-clone",
@@ -55,7 +68,7 @@ function Project() {
       id: 5,
       image: blog1,
       icon: <FaGithub />,
-      heading: "BlogMania - Blog app",
+      heading: "Blog app",
       text:
         "Blog website that allows user to log in using Google and start searching for & reading intersting blog posts.",
         projectLink:
@@ -66,9 +79,12 @@ function Project() {
       id: 6,
       image: covid,
       icon: <FaGithub />,
-      heading: "Netflix Clone",
+      heading: "Covid 19 Tracker",
       text:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit.Omnis laborum aspernatur aut magnam!",
+        "Covid 19 Tracker using React Js and Firebase. Covid 19 Affect update information",
+        projectLink:
+        "https://5fd745c8358b5a0bc65f5f62--zealous-visvesvaraya-11d74f.netlify.app/",
+      githubLink: "https://github.com/kawsar007/COVID_19_Tracker",
     },
   ]);
 

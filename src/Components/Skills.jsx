@@ -17,9 +17,9 @@ function Skills() {
               <div
                 class="progress-bar"
                 // style={{ width: "65%", background: "#ef2d56" }}
-                style={{ width: "65%"}}
+                style={{ width: "90%"}}
               >
-                <div class="progress-value">65%</div>
+                <div class="progress-value">90%</div>
               </div>
             </div>
 
@@ -27,9 +27,9 @@ function Skills() {
             <div class="progress">
               <div
                 class="progress-bar"
-                style={{ width: "87%", background: "#ff9900" }}
+                style={{ width: "70%", background: "#ff9900" }}
               >
-                <div class="progress-value">87%</div>
+                <div class="progress-value">70%</div>
               </div>
             </div>
 
@@ -39,7 +39,7 @@ function Skills() {
                 class="progress-bar"
                 style={{ width: "60%", background: "#ff9900" }}
               >
-                <div class="progress-value">60%</div>
+                <div class="progress-value">66%</div>
               </div>
             </div>
 
@@ -49,7 +49,7 @@ function Skills() {
                 class="progress-bar"
                 style={{ width: "80%", background: "#ff9900" }}
               >
-                <div class="progress-value">80%</div>
+                <div class="progress-value">75%</div>
               </div>
             </div>
 

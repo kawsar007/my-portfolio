@@ -33,9 +33,10 @@ function App() {
 
       <Banner/>
       <Navbar/> 
-
-      {/* <Services/> */}
+      <Services/>
+      
       <About/>
+      
       <Education/>
       <Project/>
       <Skills/>

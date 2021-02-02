@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { FaGithub, FaCodepen, FaCamera } from "react-icons/fa";
+import { FaGithub, FaCodepen, FaCamera, FaBug } from "react-icons/fa";
 
 function Services() {
     const [header] = useState({
@@ -12,17 +12,17 @@ function Services() {
         {
             icon: <FaGithub/>,
             heading: "Web Development",
-            text: " Lorem ipsum dolor sit amet consectetur, adipisicing elit.Omnis laborum aspernatur aut magnam!"
+            text: "I'll develop your website with MongoDB, NodeJs, Firebase, Netlify, git etc. Unlimited times free revisions until delivering times free rivisions until delivering to you."
         },
         {
             icon: <FaCodepen/>,
             heading: "Web Design",
-            text: " Lorem ipsum dolor sit amet consectetur, adipisicing elit.Omnis laborum aspernatur aut magnam!"
+            text: "I'll design your web site with html, css, bootstrap, Javascript, React Js, Redux Js, Formik Form Material UI etc. Ultimited times free revision until delivering to you."
         },
         {
-            icon: <FaCamera/>,
-            heading: "Photography",
-            text: " Lorem ipsum dolor sit amet consectetur, adipisicing elit.Omnis laborum aspernatur aut magnam!"
+            icon: <FaBug/>,
+            heading: "Bug Fixing",
+            text: "Website problem & bugs it's a common problem for every website. Don't worry, It is easy for me to solve the problem and bugs of the website.I can any type of problems & bugs for any website."
         }
     ])
 

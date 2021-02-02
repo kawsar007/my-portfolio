@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import {
   FaFacebookF,
   FaInstagram,
@@ -8,8 +8,6 @@ import {
   FaSkype,
   FaPlay,
 } from "react-icons/fa";
-//import { AiOutlineMail } from 'react-icons/ai';
-// import kaw2 from "./img/kaw2.jpg";
 import kilil from "./img/kilil.jpg";
 
 function Banner() {
@@ -51,8 +49,8 @@ function Banner() {
                 </p>
                 <div className="header_buttons">
                   <a
-                    href="https://drive.google.com/file/d/14sdStmwpdXeHSQeIoKRlUI_F_tSiYHpT/view?usp=sharing"
-                    className="btn btn-outline"
+                    href="/cv.pdf"
+                    className="btn btn-outline" download
                   >
                     Resume
                   </a>
@@ -60,9 +58,10 @@ function Banner() {
                        Resume
                     </a> */}
                   &nbsp;&nbsp;&nbsp;
-                  <a href="#" className="btn btn-smart">
+                  {/* <a href="#" className="btn btn-smart">
                     <FaPlay className="play" />
-                  </a>
+                    Contact Me
+                  </a> */}
                 </div>
               </div>
             </div>

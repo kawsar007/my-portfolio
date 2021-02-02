@@ -675,4 +675,7 @@ textarea {
         width: 200px;
         border-radius: 50%;
     }
+    .FooterText {
+        font-size: 12px;
+    }
 }

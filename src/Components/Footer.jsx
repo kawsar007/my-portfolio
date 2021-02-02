@@ -4,10 +4,10 @@ function Footer() {
     return (
         <footer className="Footer">
         <div className="container-fluid">
-            <span className="FooterText">Copyright © 2021 All Rights Reserved by <span style={{color: "salmon"}}>Kawsar</span>.</span>
+            <span className="FooterText">© 2020 All Rights Reserved.</span>
         </div>
         </footer>
     )
 }
 
-export default Footer
+export default Footer;

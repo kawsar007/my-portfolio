@@ -42,7 +42,7 @@ function Navbar() {
                   Home
                 </Link>
               </li>
-              {/* <li>
+              <li>
                 <Link
                   style={{ cursor: "pointer" }}
                   activeClass="active"
@@ -54,7 +54,7 @@ function Navbar() {
                 >
                   Services
                 </Link>
-              </li> */}
+              </li>
               <li>
                 <Link
                   style={{ cursor: "pointer" }}
