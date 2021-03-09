@@ -11,7 +11,7 @@ function About() {
   });
 
   const [state] = useState([
-    { id: 1, title: "Name:", text: "Kawsar Mai" },
+    { id: 1, title: "Name:", text: "Kawsar Mia" },
     { id: 1, title: "Email:", text: "imkawsar007@gmail.com" },
     { id: 1, title: "Phone", text: "01638-600627" },
     { id: 1, title: "LinkedIn", text: "kawsar007" },
