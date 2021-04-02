@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { FaGithub, FaCodepen, FaCamera, FaBug } from "react-icons/fa";
+import { FaGithub, FaCodepen, FaBug } from "react-icons/fa";
 
 function Services() {
     const [header] = useState({

@@ -10,7 +10,7 @@ import Project from "./Components/Project";
 import Services from "./Components/Services";
 import Skills from "./Components/Skills";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+//import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 function App() {

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import covid from "./img/covid.jpg";
-import gadget from "./img/gadget.jpg";
 import commerce from "./img/commerce.jpg";
 import pizza from "./img/pizza.jpg";
 import netflix from "./img/netflix.JPG";
@@ -20,16 +19,6 @@ function Project() {
       projectLink: "https://commercejsstor.netlify.app/",
       githubLink: "https://github.com/kawsar007/React-E-Commerce"
     },
-    // {
-    //   id: 1,
-    //   image: gadget,
-    //   icon: <FaGithub />,
-    //   heading: "Gadget E-Commerce",
-    //   text:
-    //     "This is E-Commerce Project using Frontend React, Redux and backend Express and MongoDB",
-    //   projectLink: "https://5fd745c8358b5a0bc65f5f62--zealous-visvesvaraya-11d74f.netlify.app/",
-    //   githubLink: "https://github.com/kawsar007/COVID_19_Tracker"
-    // },
     {
       id: 2,
       image: github,
