@@ -47,7 +47,7 @@ function Banner() {
                 </p>
                 <div className="header_buttons">
                   <a
-                    href="/cv.pdf"
+                    href="/kawsarCV.pdf"
                     className="btn btn-outline" download
                   >
                     Resume

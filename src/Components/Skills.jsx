@@ -73,7 +73,11 @@ function Skills() {
                     <button className="skillsBtn">Bootstrap</button>
                     <button className="skillsBtn">JavaScript</button>
                     <button className="skillsBtn">React Js</button>
+                    <button className="skillsBtn">Next Js</button>
                     <button className="skillsBtn">Redux Js</button>
+                    <button className="skillsBtn">Redux Toolkit</button>
+                    <button className="skillsBtn">Styled Components</button>
+                    <button className="skillsBtn">SCSS</button>
                     <button className="skillsBtn">Formik Form</button>
                     <button className="skillsBtn">Material UI</button>
                     <button className="skillsBtn">React Router</button>

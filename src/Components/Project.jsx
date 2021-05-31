@@ -1,27 +1,27 @@
 import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
-import covid from "./img/covid.jpg";
-import commerce from "./img/commerce.jpg";
-import pizza from "./img/pizza.jpg";
-import netflix from "./img/netflix.JPG";
-import blog1 from "./img/blog1.jpg";
-import github from "./img/github.jpg";
+import covid1 from "./img/covid1.jpg";
+import landing1 from "./img/landing1.jpg";
+import commerce1  from "./img/commerce1.jpg";
+import netflix1 from "./img/netflix1.jpg";
+import blog2 from "./img/blog2.jpg";
+import github1 from "./img/github1.jpg";
 
 function Project() {
   const [state] = useState([
     {
       id: 1,
-      image: commerce,
+      image: landing1,
       icon: <FaGithub />,
-      heading: "React E-Commerce",
+      heading: "Startup Landing Project",
       text:
-        "This is fully functional eCommerce application using React Js commerce.js and Material UI", 
-      projectLink: "https://commercejsstor.netlify.app/",
-      githubLink: "https://github.com/kawsar007/React-E-Commerce"
+        "This is amazing fully mobile responsive startup company landing project using Next Js.", 
+      projectLink: "https://startup-landing-lovat.vercel.app/",
+      githubLink: "https://github.com/kawsar007/Next-Js-Landing-Page"
     },
     {
       id: 2,
-      image: github,
+      image: github1,
       icon: <FaGithub />,
       heading: "Search Github User",
       text:
@@ -33,7 +33,7 @@ function Project() {
     ,
     {
       id: 3,
-      image: netflix,
+      image: netflix1,
       icon: <FaGithub />,
       heading: "Netflix Clone",
       text:
@@ -44,18 +44,17 @@ function Project() {
     },
     {
       id: 4,
-      image: pizza,
+      image: commerce1,
       icon: <FaGithub />,
-      heading: "Pizza Shop",
+      heading: "React E-Commerce",
       text:
-        "This is responsive Pizza Shop Design Project using React Js and Style-components.",
-        projectLink:
-        "https://pizzashop-design.netlify.app/",
-      githubLink: "https://github.com/kawsar007/Pizza-Shop",
+        "This is fully functional eCommerce application using React Js commerce.js and Material UI", 
+      projectLink: "https://commercejsstor.netlify.app/",
+      githubLink: "https://github.com/kawsar007/React-E-Commerce"
     },
     {
       id: 5,
-      image: blog1,
+      image: blog2,
       icon: <FaGithub />,
       heading: "Blog app",
       text:
@@ -66,7 +65,7 @@ function Project() {
     },
     {
       id: 6,
-      image: covid,
+      image: covid1,
       icon: <FaGithub />,
       heading: "Covid 19 Tracker",
       text:
