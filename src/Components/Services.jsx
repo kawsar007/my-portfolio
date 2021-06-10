@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { FaGithub, FaCodepen, FaBug } from "react-icons/fa";
+import { FaGithub, FaMobileAlt, FaBug } from "react-icons/fa";
 
 function Services() {
     const [header] = useState({
@@ -12,12 +12,12 @@ function Services() {
         {
             icon: <FaGithub/>,
             heading: "Web Development",
-            text: "I'll develop your website with MongoDB, NodeJs, Firebase, Netlify, git etc. Unlimited times free revisions until delivering times free rivisions until delivering to you."
+            text: "I'll develop your website frontend using HTML & CSS, Bootstrap, React Js, Next js, Redux js / Toolkit, Material Ui, Formik form, Styled Components etc and backend using MongoDB, NodeJs, Firebase, git etc. Unlimited times free revisions until delivering times free rivisions until delivering to you."
         },
         {
-            icon: <FaCodepen/>,
-            heading: "Web Design",
-            text: "I'll design your web site with html, css, bootstrap, Javascript, React Js, Redux Js, Formik Form Material UI etc. Ultimited times free revision until delivering to you."
+            icon: <FaMobileAlt/>,
+            heading: "Responsive Design",
+            text: "Responsive Web Design is the approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation. The practice consists or a mix of flexible grids and layouts, media queries."
         },
         {
             icon: <FaBug/>,
