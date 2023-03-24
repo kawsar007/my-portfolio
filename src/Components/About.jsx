@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-// import kawser2 from "./img/kawser2.jpg";
-import kilil2 from "./img/kilil2.jpg";
-
+import kilil2 from "../img/kilil2.jpg";
 
 function About() {
   const [header] = useState({

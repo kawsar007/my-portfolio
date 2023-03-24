@@ -6,7 +6,7 @@ import {
   FaLinkedin,
   FaSkype,
 } from "react-icons/fa";
-import kilil from "./img/kilil.jpg";
+import kilil from "../img/kilil.jpg";
 
 function Banner() {
   return (
