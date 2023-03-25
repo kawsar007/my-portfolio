@@ -1,11 +1,11 @@
 import { FaGithub } from "react-icons/fa";
 
-import covid1 from "../img/covid1.jpg";
-import github1 from "../img/github1.jpg";
-import landing1 from "../img/landing1.jpg";
-import SuperBike from "../img/mern.jpg";
-import netflix1 from "../img/netflix1.jpg";
-import Starware from "../img/starware.png";
+import covid1 from "../assets/img/covid1.jpg";
+import github1 from "../assets/img/github1.jpg";
+import landing1 from "../assets/img/landing1.jpg";
+import SuperBike from "../assets/img/mern.jpg";
+import netflix1 from "../assets/img/netflix1.jpg";
+import Starware from "../assets/img/starware.png";
 
 export const ProjectData = [
     {

@@ -22,7 +22,7 @@ function Services() {
         {
             icon: <FaBug/>,
             heading: "Bug Fixing",
-            text: "Website problem & bugs it's a common problem for every website. Don't worry, It is easy for me to solve the problem and bugs of the website.I can any type of problems & bugs for any website."
+            text: "Debugging requires a high level of attention to detail in order to identify the source of a problem. Developers with strong attention to detail are better able to spot issues, read code carefully, and identify discrepancies. They can diagnose any type of problem or bug on any website."
         }
     ])
 
