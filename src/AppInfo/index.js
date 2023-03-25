@@ -9,7 +9,7 @@ import Starware from "../img/starware.png";
 
 export const ProjectData = [
     {
-        title: "Frontend",
+        title: "React Js",
         content: [
             {
                 id: 1,
@@ -84,7 +84,7 @@ export const ProjectData = [
         ]
     },
     {
-        title: "Backend",
+        title: "Angular",
         content: [
             {
                 id: 1,

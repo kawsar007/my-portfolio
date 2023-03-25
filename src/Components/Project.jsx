@@ -23,7 +23,7 @@ function Project() {
      {/* Tab Section */}
         <div className="tab_container">
         {state.map((tab, index) => (
-          <span className="tab_item" key={index} onClick={() => handleTabClick(index)}>
+          <span className={activeTab === index ? 'active-tab' : ''} key={index} onClick={() => handleTabClick(index)}>
             {tab.title}
           </span>
         ))}
@@ -44,7 +44,9 @@ function Project() {
                   <div className="project_box-header">{info.heading}</div>
                   <p className="project_box-p"> {info.text} </p>
                   <p>{info.technology}</p>
-                  <div className="iconBtn">
+                  
+                </div>
+                <div className="iconBtn">
                     <a href={info.projectLink} className="liveDemo">
                       Live Demo
                     </a>
@@ -52,7 +54,6 @@ function Project() {
                       {info.icon}
                     </a>
                   </div>
-                </div>
               </div>
             {/* {Object.entries(item).map(([key, value]) => (
               <p key={key}>
