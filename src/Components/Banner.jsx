@@ -5,7 +5,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaSkype,
-  FaPlay,
 } from "react-icons/fa";
 import Typed from 'react-typed';
 import kilil from "../assets/img/kilil.jpg";
@@ -67,9 +66,9 @@ function Banner() {
                        Resume
                     </a> */}
                   &nbsp;&nbsp;&nbsp;
-                  <a href="#" className="btn btn-smart">
+                  {/* <a href="#" className="btn btn-smart">
                     Contact Me
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -77,7 +76,6 @@ function Banner() {
           {/*col-6 End */}
           <div className="col-6 animate__animated animate__fadeInRight">
             <div className="banner_img">
-              {/* <img src="/images/jon.jpg" alt="Kawsar" /> */}
               <img src={kilil} alt="Kawsar"/>
             </div>
           </div>

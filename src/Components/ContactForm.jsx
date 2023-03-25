@@ -37,7 +37,7 @@ function ContactForm() {
       >
         <Form className="Contact_form">
           <div className="row">
-            <div className="col-6">
+            <div className="col-6 nameInput">
               <Field id="name" type="text" name="name" placeholder="Name" />
               <ErrorMessage name="name" component={TextError}/>
             </div>
@@ -52,6 +52,7 @@ function ContactForm() {
                 name="message"
                 placeholder="Message"
                 type="text"
+                className="nameInput"
               />
               <ErrorMessage name="message" component={TextError}/>
             </div>

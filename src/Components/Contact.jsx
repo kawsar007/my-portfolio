@@ -52,6 +52,9 @@ function Contact() {
 
         <div className="Contact_form">
             <ContactForm/>
+            {/* <div className="contact_logo">
+               Contact Logo
+            </div> */}
         </div>
         
       </div>
